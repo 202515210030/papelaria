@@ -1,0 +1,205 @@
+body{
+    background-color:#FFFFFF;
+    
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+header{
+    display:grid;
+    grid-template-columns:20% 80%; 
+    grid-template-rows:100px 200px;
+    background-color:#F9C8D6;
+    
+    height:32vh;
+    width:100%;
+    
+}
+h1 {
+    margin-left:25px;
+    grid-row:1/3;
+    font-size:40px;
+}
+img{
+    width:220px;
+}
+#menu{
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+    height:100%; 
+    list-style:none;
+    
+    font-size:18px;
+    flex-wrap:nowrap;
+    width:100%;
+   
+    
+}
+#menu a{
+    text-decoration: none;
+    color:black;
+    font-size:25px;
+}
+
+
+
+h2{
+   width:800px;
+    height:110px;
+    padding:20px;
+    background-color:#FDF8E1 ;
+    border-radius:10px;
+    font-size:35px;
+   justify-self: center;
+   margin-bottom:20px;
+}
+.icones{
+    margin-left:80px;
+    margin-top:90px;
+    display:grid;
+    grid-template-columns:25% 25% 25% 25%;
+    
+}
+
+section{
+    min-height:80vh;
+    background-color: white;
+    
+}
+#categoria{
+    text-align:center;
+    font-size:40px;
+    background-color:#FFFFFF;
+    
+}
+#veja{
+    grid-column:1/5;
+    font-size:70px;
+}
+
+#sobrenos{
+    min-height:50vh;
+    background-color:#A2D2FF;
+    
+}
+
+p{
+    font-size:29px;
+    text-indent:40px;
+    text-align:justify;
+}
+#produto{
+    background-color:#FFFFFF;
+   
+}
+.mercadoria{
+    display:grid;
+    grid-template-columns:25% 25% 25% 25%;
+    justify-items:center;
+    margin-top:70px;
+    padding-left:15px;
+   padding-right:15px;
+   font-size:20px;
+   min-height: 61vh; 
+}
+.redesocial{
+    display:flex;
+    align-items:center;
+    font-weight:600;
+    font-size:35px;
+}
+#nossiga{
+    font-weight:600;
+    font-size:35px;
+}
+.merc{
+    display:flex;
+    flex-direction:column;
+   align-items:center;
+  text-align: center;
+}
+.merc img{
+    width:300px;
+    height:300px;
+    object-fit:contain;
+    object-position:center;
+    
+}
+.comprar{
+    background-color:#A2D2FF;
+    border-radius:10px;
+    width:250px;
+    height:40px;
+    text-align:center;
+    margin-top:15px;
+    font-size:30px;
+}
+.inst{
+    width:40px;
+}
+
+#descricao{
+    grid-column:1/2;
+    grid-row:2/3;
+    text-align:left;
+    flex-direction:row;
+    justify-content:flex-end;
+    align-items:center;
+}
+   
+#novidade{
+    background-color: #CDB4DB;
+}
+.sobre{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+#imagem{
+    width:800px;
+    margin-right:20px;
+    height:500px;
+    
+}
+.container{
+    min-height:550px;
+    
+}
+.container h1{
+    font-size:40px;
+    font-weight:700;
+}
+.container p{
+    font-size:26px;
+    line-height: 120%;
+    text-indent:40px; /*recuo de parágrafo*/
+    text-align:justify;
+}
+.container img{
+    width:500px;
+    border-radius:10px;
+    margin:12px;
+    float:right;
+    border:5px dotted #F9C8D6;
+}
+main{
+    background-color: white;
+}
+.containerprod{
+display:grid;
+grid-template-columns:25% 25% 25% 25%;
+}
+#rodape{
+ min-height: 40vh;
+ background-color: #F9C8D6;
+}
+.containerrodape{
+ display:grid;
+ grid-template-columns: 20% 80%;
+ margin-bottom:20px;
+ padding-top:20px;
+ 
+}
